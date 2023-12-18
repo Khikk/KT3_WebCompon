@@ -1,0 +1,47 @@
+/* Общие стили для контейнера и карточек */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Перенос строк */
+    justify-content: space-around; /* Распределение карточек по ширине контейнера */
+    max-width: 1000px; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+}
+
+.card {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s ease, transform 0.3s ease; /* Анимация при наведении */
+    margin-bottom: 20px; /* Расстояние между строками */
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.card p {
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Анимация при наведении на карточку */
+.card:hover {
+    border-color: #5f2057;
+    transform: translateY(-5px); /* Поднимаем карточку на 5px при наведении */
+
+}

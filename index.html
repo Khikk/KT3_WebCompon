@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Карточки с контентом</title>
+    <link rel="stylesheet" href="card-component.css">
+</head>
+<body>
+    <div class="container">
+    <card-component>
+        <template slot="header">
+            <h2>Nesquik</h2>
+        </template>
+        <template slot="content">
+            <p>Шоколад Nesquik в детстве казался таким вкусным...<br/>Но попробовав его в сознательном возрасте я был разачарован.</p>
+            <img src="https://i7.otzovik.com/2019/05/14/8192812/img/77452_60987189.jpeg" width='168px' height='168px' alt="nesquik">
+        </template>
+    </card-component>
+    <card-component>
+        <template slot="header">
+            <h2>Milka</h2>
+        </template>
+        <template slot="content">
+            <p>Шоколад Milka.
+            <br/>Раньше был куда вкуснее, очень нежным, почти как Dove. 
+            <br/>Сейчас все еще фаворит в выборе, но по вкусу стал куда хуже.</p>
+            <img src="https://goods-photos.static1-sima-land.com/items/1018439/0/1600.jpg?v=1585612537" width='300px' height='300px' alt="milka">
+        </template>
+    </card-component>
+    <card-component>
+        <template slot="header">
+            <h2>Alpen Gold</h2>
+        </template>
+        <template slot="content">
+            <p>Шоколад Alpen Gold это база
+            <br/>Как говорится хочется разнообразие, это к ним. 
+            <br/>Хоть и качество шоколада во многом уступает другим брендам, это компенсируется разнообразием выбора.</p>
+            <img src="https://puddostavka.ru/upload/iblock/837/cr49q1f39ev7vuzpcfqlxe5iuvbj869x.jpg" width='300px' height='300px' alt="aplen_gold">
+        </template>
+    </card-component>
+    <card-component>
+        <template slot="header">
+            <h2>Алёнка</h2>
+        </template>
+        <template slot="content">
+            <p>Шоколад Алёнка.
+            <br/>Всегда была вкусная и родной. 
+            <br/>Лично для меня Алёнка и Milka это два слона на которых держится шоколадный мир.</p>
+            <img src="https://www.alenka.ru/upload/iblock/753/753b9a97ae7aa31e88a21b931c08c726.jpg" width='300px' height='300px' alt="alenka">
+        </template>
+    </card-component>
+    </div>
+
+    <script src="card-component.js"></script>
+</body>
+</html>
